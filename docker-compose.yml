@@ -12,7 +12,7 @@ services:
       - onlinebookstoredbdata:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=admin123
-  oonlinebookstoreapp:
+  onlinebookstoreapp:
     build:
       context: .
       dockerfile: Docker-files/app/Dockerfile
